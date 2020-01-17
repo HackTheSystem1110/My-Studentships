@@ -33,9 +33,9 @@ def BotTrigonal(Val,Right=1,Left=1):
     StSp = Val-2 #Start-Space
     for i in range(Val//2):
         Space(i)
-        LeftSlash(Right)
+        LeftSlash(Left)
         Space(StSp - (i*2))
-        RightSlash(Left)
+        RightSlash(Right)
         NewLine()
 def Parallelogram(Val,Right=1,Left=1): # Make The Common-Caller
     TopTrigonal(Val,Right,Left) # Make Top of Parallelogram
